@@ -10,5 +10,5 @@ You can view the app at - https://movie-app-danieltgilbert.netlify.app/
 
 
 You can run this app by running the commands
-    - npm install
-    - npm run dev
+- npm install
+- npm run dev
