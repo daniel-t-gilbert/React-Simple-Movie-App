@@ -1,20 +1,18 @@
 
-const MovieCard = (movies) => {
-    console.log(movies)
+const MovieCard = () => {
   return (
     <div className="movie">
       <div>
-        <p>{movies.movie.Year}</p>
-        { console.log(movies.movie.Year) }
+        <p>Released Year</p>
       </div>
 
       <div>
-        <img src={movies.movie.Poster !== "N/A" ? movies.movie.Poster : "https://via.placeholder.com/400"} alt={movies.movie.Title} />
+        <img src="https://via.placeholder.com/400" alt="Movie Poster" />
       </div>
 
       <div>
-        <span>{movies.movie.Type}</span>
-        <h3>{movies.movie.Title}</h3>
+        <span>Type</span>
+        <h3>Movie Name</h3>
       </div>
     </div>
   );
