@@ -5,11 +5,9 @@ import SearchIcon from "./assets/search.svg";
 
 import "./App.css";
 
-const API_URL = 'https://www.omdbapi.com?apikey=10f88d18'; 
+const API_URL = 'https://www.omdbapi.com?apikey=your-api-key-here'; 
 
 const App = () => {
-  // console.log(import.meta.env.VITE_API_KEY)
-  
   const [searchTerm, setSearchTerm] = useState("");
   const [movies, setMovies] = useState([]);
 
